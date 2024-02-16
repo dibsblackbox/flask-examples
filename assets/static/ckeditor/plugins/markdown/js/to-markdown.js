@@ -1,48 +1,50 @@
-
-The input was `
-
-**Foo**
+## Foo
 
 Bar
-========================
+---
 
 ### Quux
 
 ![alt](img/q.jpg)
 
-* Unordered
-	+ Sub
+* Unordered list
+  + Sublist
 
-
-
-
-* **Bold**
+* **Bold** text
 
 `Code block`
 
 > Blockquote
-> > Sub
-> > > Sub
->
-> ------------------------------------
-
-The output is
-
-
-// Javascript code block
-var x = 5;
-
-
+> > Subblockquote
+> > > Subsubblockquote
 
 ---
 
-#### Details
+<!-- This is a horizontal rule -->
 
-* Input Type: 	markdown
-* Output Type: 	plaintext
-* # of Tests: 	1
-* Coverage: 	['strong', 'a', 'blockquote', 'pre', 'br', 'i', 'code', 'ul', 'hr', 'img', 'hr', 'p', 'hr', 'ol']
+<i>Italic</i>
 
----
+<code>Inline code</code>
 
-**[Run tests](https://jestjs.io/docs/en/api#testcommand-options)**
+<ul>
+  <li>Unordered list item</li>
+  <li>Another unordered list item</li>
+</ul>
+
+<hr>
+
+<img src="img/q.jpg" alt="alt">
+
+<ol>
+  <li>Ordered list item</li>
+  <li>Another ordered list item</li>
+</ol>
+
+<p>Paragraph text</p>
+
+<h1>Header 1</h1>
+<h2>Header 2</h2>
+<h3>Header 3</h3>
+<h4>Header 4</h4>
+<h5>Header 5</h5>
+<h6>Header 6</h6>
